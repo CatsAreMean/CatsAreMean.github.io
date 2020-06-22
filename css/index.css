@@ -1,0 +1,71 @@
+/* The navigation menu */
+h2 {
+  font-family: arial;
+  margin: 0;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: grey;
+}
+
+.article p {
+  float: center;
+  box-sizing: border-box;
+  height: 100%;
+  border-style: solid;
+  padding: 50px;
+  margin: 0;
+  font-family: arial;
+  font-size: 35px;
+  text-align: center;
+}
+
+html {
+  margin-top: 0%;
+  margin-left: 23%;
+  margin-right: 23%;
+  background-color: lightblue;
+}
+
+body {
+  margin: 0%;
+}
+
+.article p:hover {
+  padding: 75px;
+  background-color: grey;
+  font-weight: bold;
+}
+
+.article p a:hover {
+  cursor: pointer;
+}
+
+.article .cont {
+  font-weight: bold;
+}
+
+.article p a {
+  text-decoration: none;
+  color: black;
+}
+
+.article #p1 {
+  background-image: url("images/board.jpg")
+}
+
+.article #p2 {
+  background-image: url("images/cogs.jpg")
+}
+
+.article #p3 {
+  background-image: url("images/people.jpg")
+}
+
+.article #p4 {
+  background-image: url("images/computer.jpg")
+}
+
+.article #p5 {
+  background-image: url("images/headset.jpg")
+}
